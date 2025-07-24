@@ -7,6 +7,10 @@ const app = express();
 // Middleware to parse JSON bodies
 app.use(express.json());
 
+const nDate = new Date().toLocaleString('en-US', {
+    timeZone: 'Asia/Jakarta'
+});
+
 // Set port and verify_token
 const port = process.env.PORT || 3000;
 const verifyToken = process.env.VERIFY_TOKEN;
