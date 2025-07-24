@@ -1,0 +1,14 @@
+{
+  "name": "webhook",
+  "version": "1.0.0",
+  "author": "Shiro2116",
+  "description": "Express webhook",
+  "license": "MIT",
+  "main": "app.js",
+  "private": false,
+  "repository": "https://github.com/Shiro2116/webhook",
+  "packages": {},
+  "scripts": {
+    "start": "node app.js"
+  }
+}
